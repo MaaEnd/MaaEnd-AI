@@ -6,7 +6,7 @@
 
 - **用途**：在仓库/背包区域检测物品图标（替代 TemplateMatch）。
 - **来源**：[Endfield_Vision_Models](https://github.com/icaruszezen/Endfield_Vision_Models) 的 YOLOv11 模型（`EF_items_11n.pt`）导出为 ONNX。
-- **类别**：与 `items/classes.txt` 一致，共 193 类；class id = 该文件中行号（从 0 开始）。
+- **类别**：与 `ItemTransfer/classes.txt` 一致，共 193 类；class id = 该文件中行号（从 0 开始）。
 
 ### 如何生成 ItemTransfer.onnx
 
